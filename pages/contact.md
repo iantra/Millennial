@@ -3,7 +3,10 @@ layout: misc
 title: Contact
 ---
 
-email: iantrasolari@gmail.com
+email: <iantrasolari@gmail.com>
+
 phone: +49 1678 307 1540
-linkedin: https://www.linkedin.com/in/iantra-solari-305843187/
-github: https://github.com/iantra
+
+linkedin: <https://www.linkedin.com/in/iantra-solari-305843187/>
+
+github: <https://github.com/iantra>

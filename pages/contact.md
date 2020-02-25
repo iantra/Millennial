@@ -5,7 +5,7 @@ title: Contact
 
 email: [iantrasolari@gmail.com](mailto:iantrasolari@gmail.com)
 
-phone: [+49 1678 307 1540](tel:+4915783071540)
+phone: [+49 1578 307 1540](tel:+4915783071540)
 
 linkedin: <https://www.linkedin.com/in/iantra-solari-305843187/>
 

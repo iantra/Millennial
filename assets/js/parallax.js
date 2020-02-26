@@ -6,5 +6,5 @@ $(window).ready(function () {
 
 $(window).scroll(function () {
     var scrollval = $(this).scrollTop();    // It will return scroll value
-    $(".parallax").css("background-position", '50% ' + (50 + scrollval / 20) + '%');
+    $(".parallax").css("background-position", '50% ' + (50 - scrollval / 10) + '%');
 });

@@ -3,6 +3,8 @@ layout: default
 ---
 
 <div class="page-content">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="{{ base.url | prepend: site.url }}/assets/js/parallax.js"></script>
   <h1>
     {{ page.title }}
   </h1>
@@ -26,8 +28,7 @@ layout: default
   </span>
 
   {% if page.image %}
-    <div class="featured-image">
-      <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+    <div class="parallax" style="background-image: url({{ site.github.url }}/assets/img/{{ page.image }})">
     </div>
   {% endif %}
 

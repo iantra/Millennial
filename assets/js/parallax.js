@@ -14,9 +14,17 @@ function update() {
         scrollwidth = normalwidth - body.width();
         $('.container').css({ paddingLeft: scrollwidth + 'px' });
     }
+
+    parallax()
 }
 
-$(window).scroll(function () {
-    var scrollval = $(this).scrollTop();    // It will return scroll value
-    $(".parallax").css("background-position", '50% ' + (50 - scrollval / 10) + '%');
-});
+$(window).scroll(parallax);
+
+function parallax() {
+    var body = $('body');
+    $(".parallax").each(function () {
+        bound = this.getBoundingClientRect()
+        var offset = 50 + ((bound.top / window.innerHeight) * 50)
+        $(this).css("background-position", '50% ' + offset + '%');
+    })
+}

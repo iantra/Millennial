@@ -24,7 +24,7 @@ function parallax() {
     var body = $('body');
     $(".parallax").each(function () {
         bound = this.getBoundingClientRect()
-        var offset = 50 + ((bound.top / window.innerHeight) * 50)
+        var offset = ((bound.top + bound.height / 2) / window.innerHeight) * 100
         $(this).css("background-position", '50% ' + offset + '%');
     })
 }

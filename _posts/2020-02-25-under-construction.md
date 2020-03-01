@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Under construction"
+post_title: "Under construction"
 author: "Iantra Solari"
 categories: project
 tags: [under-construction]
